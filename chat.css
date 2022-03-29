@@ -5,11 +5,11 @@
 
       #chatPanel {
         width: 425px;
-        height: 250px;
+        height: 190px;
         margin-left: 15px;
         margin-top: 60px;
         background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
         overflow: scroll;
       }
 
@@ -40,8 +40,12 @@
 
       #chatForm {
         position: fixed;
-        top: 265px;
-        left: 30px;
+        top: 250px;
+        left: 15px;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 60px;
+        width: 425px;
+        border-radius: 0 0 10px 10px;
       }
 
       #chatInput {
@@ -52,6 +56,8 @@
         background: rgba(211, 211, 211, 0.5);
         border-radius: 10px;
         padding-left: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
       }
       
       #chatInput::placeholder {
