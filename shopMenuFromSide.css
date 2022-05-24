@@ -1,0 +1,9 @@
+#shop-menu {
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 25px;
+    display: none;
+    width: 60%;
+    height: 80%;
+    background-color: lightpink;
+}
