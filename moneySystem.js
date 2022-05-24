@@ -1,3 +1,5 @@
+document.getElementById("money").style.display = "block";
+
 function formatCash(money) {
     if(money >= 1000000000000000){
         let moneyStr = `${Math.round((money / 1000000000000000) * 10) / 10}q`
